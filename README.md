@@ -20,7 +20,7 @@ A Retrieval-Augmented Generation (RAG) chatbot with agentic workflow, powered by
 
 ### 1. Clone the repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/sujith2303/AgenticRAG.git
 cd Agentic-RAG
 ```
 
@@ -58,7 +58,7 @@ The Gradio chat interface will open in your browser.
 ---
 
 ## Architecture
-
+> **Note:** I have created this architecture using Generative AI
 ```mermaid
 graph TD;
   UI["Gradio UI"] -->|User question| Agent["RAG Agent (agent.py)"]
@@ -126,8 +126,24 @@ The Gradio UI will be available at [http://localhost:7860](http://localhost:7860
 
 ---
 
-## License
-MIT
-
-
 ## Results
+
+### GeneralQuestions 
+<img src= "https://github.com/sujith2303/AgenticRAG/blob/main/images/General_Questions.png">
+
+---
+
+### Chatbot without RAG
+<img src = "https://github.com/sujith2303/AgenticRAG/blob/main/images/Without_RAG.png">
+
+---
+
+### Chatbot with RAG
+<img src = "https://github.com/sujith2303/AgenticRAG/blob/main/images/RAG.png">
+
+---
+
+### Chatbot with History
+<img src = "https://github.com/sujith2303/AgenticRAG/blob/main/images/chat_history.png">
+
+---
