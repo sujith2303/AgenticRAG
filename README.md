@@ -63,8 +63,11 @@ The Gradio chat interface will open in your browser.
 graph TD;
   UI["Gradio UI"] -->|User question| Agent["RAG Agent (agent.py)"]
   Agent -->|Retrieves| VectorDB["Chroma Vector Store (vector_store.py)"]
+  VectorDB -- No relevant content --> SearchDecision{Relevant content?}
+  SearchDecision -- No --> SearchTool["Search Tool (Tools.py)"]
+  SearchDecision -- Yes --> Agent
+  SearchTool -->|External Info| Agent
   Agent -->|LLM| Gemini["Google Gemini (via LangChain)"]
-  VectorDB -->|Documents| Agent
   Agent -->|Answer| UI
 ```
 
