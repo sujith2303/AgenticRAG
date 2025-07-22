@@ -1,5 +1,5 @@
 import gradio as gr
-from agent import rag_graph
+from search_agent import rag_graph
 import os
 from config import Config
 

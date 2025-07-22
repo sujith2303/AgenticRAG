@@ -55,7 +55,7 @@ class LocalFileLoader(DocumentLoader):
         self.vector_store.add_documents(documents=all_splits)
 
     def retrieve(self, query: str):
-        return self.vector_store.similarity_search(query, k=3)
+        return self.vector_store.similarity_search_with_score(query, k=3)
 
     def split_document(self, docs):
         text_splitter = RecursiveCharacterTextSplitter(

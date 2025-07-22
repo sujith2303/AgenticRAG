@@ -3,10 +3,13 @@
     "model_name": "gemini-2.0-flash",
     "prompt": "tdata_rag_prompt",
     "LANGSMITH_TRACING" : "false",
-    "LANGSMITH_API_KEY":"",
+    "LANGSMITH_API_KEY":"LANGSMITH_API_KEY",
     "LANGSMITH_PROJECT":"Tdata_RAG_Project",
     "embeddings_model":"models/embedding-001",
     "chunk_size":1000,
     "overlap":200,
-    "VECTOR_DB_PATH": "data/chroma_db"
+    "VECTOR_DB_PATH": "data/chroma_db",
+    "SEARCHAPI_API_KEY":"SEARCHAPI_API_KEY",
+    "CSE_ID":"CSE_ID"
+
   }

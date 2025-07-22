@@ -16,3 +16,5 @@ class Config:
     CHUNK_SIZE = config.get("chunk_size")
     OVERLAP = config.get("chunk_size")
     VECTOR_DB_PATH = config.get("VECTOR_DB_PATH")
+    SEARCHAPI_API_KEY = config.get("SEARCHAPI_API_KEY")
+    CSE_ID = config.get("CSE_ID")
