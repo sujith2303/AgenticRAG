@@ -150,3 +150,17 @@ The Gradio UI will be available at [http://localhost:7860](http://localhost:7860
 <img src = "https://github.com/sujith2303/AgenticRAG/blob/main/images/chat_history.png">
 
 ---
+
+### Chatbot with RAG and No Google Search
+<img src = "https://github.com/sujith2303/AgenticRAG/blob/main/images/RAG_NoGoogleSearch.png">
+
+---
+
+### Chatbot with RAG and Google Serach
+<img src ="https://github.com/sujith2303/AgenticRAG/blob/main/images/RAG_WithGoogleSearch.png">
+<img src="https://github.com/sujith2303/AgenticRAG/blob/main/images/RAG_WithGoogleSearch_1.png">
+
+### LangGraph Architecture
+<img src = "https://github.com/sujith2303/AgenticRAG/blob/main/images/rag_graph.png">
+
+---
